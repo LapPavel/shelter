@@ -25,7 +25,7 @@ burgerBack.addEventListener('click', toggleBurgerMenu);
 //-----------------------------------------------------------------
 
 // Пагинация
-import pets from "../../assets/pets.json" assert { type: 'json' };
+import pets from "../../assets/pets.json" with { type: 'json' };
 const cardsContainer = document.querySelector('.cards-container');
 let page = 0;
 let cardsCount;

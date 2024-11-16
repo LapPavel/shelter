@@ -25,7 +25,7 @@ burgerBack.addEventListener('click', toggleBurgerMenu);
 //-----------------------------------------------------------------
 
 // Слайдер-карусель
-import pets from "../../assets/pets.json" assert { type: 'json' };
+import pets from "../../assets/pets.json" with { type: 'json' };
 let prevArr = [], curArr = [], nextArr = [];
 let cardsCount;
 const prevBtn = document.querySelector('.slide_prev');
